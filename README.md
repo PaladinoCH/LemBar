@@ -1,85 +1,160 @@
-# NotchHub
+<h1 align="center">LemBar</h1>
 
-NotchHub é um utilitário para macOS que transforma a região da notch em uma central rápida de informações e controles.
+<p align="center">
+  <strong>Your Mac, right at the top.</strong><br>
+  Uma central compacta para música, sistema, calendário e ações rápidas integrada à região superior do macOS.
+</p>
+
+<p align="center">
+  <a href="https://github.com/PaladinoCH/LemBar/releases/latest">
+    <img src="https://img.shields.io/github/v/release/PaladinoCH/LemBar?label=release" alt="Latest Release">
+  </a>
+  <img src="https://img.shields.io/badge/macOS-26.5%2B-black?logo=apple" alt="macOS 26.5+">
+  <img src="https://img.shields.io/badge/Universal-arm64%20%7C%20x86__64-blue" alt="Universal">
+  <a href="https://github.com/PaladinoCH/LemBar/releases">
+    <img src="https://img.shields.io/github/downloads/PaladinoCH/LemBar/total?label=downloads" alt="Downloads">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/PaladinoCH/LemBar/releases/latest"><strong>Download LemBar</strong></a>
+  ·
+  <a href="https://github.com/PaladinoCH/LemBar/releases">Releases</a>
+</p>
+
+---
+
+LemBar transforma a região superior do seu Mac em uma central rápida de informações e controles.
+
+Música, informações do sistema, calendário e ações rápidas ficam disponíveis em uma interface compacta projetada para permanecer acessível sem interromper seu fluxo de trabalho.
+
+## Quick Start
+
+1. Acesse a [release mais recente](https://github.com/PaladinoCH/LemBar/releases/latest).
+2. Baixe `LemBar-1.0.0-universal.dmg`.
+3. Abra o DMG.
+4. Arraste `LemBar.app` para `Applications`.
+5. Abra o LemBar.
+
+> A versão atual utiliza assinatura ad-hoc e ainda não possui notarização Apple. Consulte [Gatekeeper](#gatekeeper) caso o macOS bloqueie a primeira abertura.
 
 ## Recursos
 
-- Controles de música para Spotify e Apple Music
-- Capa, título, artista, progresso e volume
-- Monitoramento de CPU, memória, bateria e sistema
-- Integração com o Calendário do macOS
-- Suporte a calendários Google, iCloud, Microsoft e outras fontes
-- Ações rápidas do macOS
-- Suporte a múltiplos monitores
-- Temas Automático, Claro e Escuro
-- Inicialização automática com o macOS
-- Interface compacta integrada à notch
+- **Controles de música** — faixa atual, artista, capa, play/pause, próxima/anterior, progresso e volume.
+- **Monitoramento do sistema** — CPU, memória, bateria e informações rápidas do Mac.
+- **Calendário** — acesso aos calendários configurados no macOS, incluindo iCloud, Google e Microsoft.
+- **Ações rápidas** — atalhos para funções úteis do macOS.
+- **Múltiplos monitores** — integração com diferentes telas.
+- **Temas** — Automático, Claro e Escuro.
+- **Inicialização automática** — opção para iniciar junto com o macOS.
+- **Interface compacta** — integrada à região superior do sistema.
 
-## Versão atual
+## Música
 
-**NotchHub v1.0.0**
+A integração atual com o Spotify disponibiliza:
 
-Build: `1`
+- título e artista;
+- capa do álbum;
+- estado de reprodução;
+- play e pause;
+- próxima faixa e faixa anterior;
+- progresso da música;
+- controle de volume.
 
-Arquiteturas:
+## Sistema
+
+O LemBar oferece uma visão rápida de:
+
+- uso de CPU;
+- uso de memória;
+- bateria;
+- informações gerais do sistema.
+
+## Calendário
+
+O LemBar integra os calendários disponíveis no macOS. Eventos de fontes como iCloud, Google, Microsoft e outros calendários configurados no sistema ficam acessíveis diretamente pela interface compacta.
+
+## Compatibilidade
+
+- macOS 26.5 ou superior
 - Apple Silicon (`arm64`)
 - Intel (`x86_64`)
 
-Requisito atual:
-- macOS 26.5 ou superior
+A distribuição oficial é Universal e o mesmo DMG/ZIP funciona nas duas arquiteturas.
 
 ## Download
 
-Os arquivos oficiais ficam disponíveis em **Releases** neste repositório:
+Versão estável atual: **LemBar v1.0.0**
 
-- `NotchHub-1.0.0-universal.dmg`
-- `NotchHub-1.0.0-universal.zip`
+- `LemBar-1.0.0-universal.dmg`
+- `LemBar-1.0.0-universal.zip`
 
-## Instalação pelo DMG
+[**Baixar a versão mais recente →**](https://github.com/PaladinoCH/LemBar/releases/latest)
 
-1. Baixe o arquivo `.dmg`.
-2. Abra o DMG.
-3. Arraste `NotchHub.app` para `Applications`.
-4. Abra o NotchHub.
+## Instalação
 
-## Aviso sobre o Gatekeeper
+### DMG
 
-A v1.0.0 é distribuída gratuitamente e não possui certificado Apple Developer ID nem notarização.
-
-Por isso, na primeira execução o macOS pode informar que o desenvolvedor não pôde ser verificado.
-
-Nesse caso:
-1. Clique com o botão direito em `NotchHub.app`.
-2. Escolha **Abrir**.
-
-Se necessário, acesse:
-
-**Ajustes do Sistema → Privacidade e Segurança → Abrir Mesmo Assim**
-
-Não é necessário desativar o Gatekeeper.
-
-## Integridade da versão 1.0.0
+1. Baixe `LemBar-1.0.0-universal.dmg`.
+2. Abra o arquivo.
+3. Arraste `LemBar.app` para `Applications`.
+4. Abra o aplicativo pela pasta Aplicativos.
 
 ### ZIP
 
-```text
-SHA-256
-30a0e94b9027b130defc40b0fd3120c0bc36b317c50c9669672bdc63f9285f89
-```
+1. Baixe `LemBar-1.0.0-universal.zip`.
+2. Extraia o arquivo.
+3. Mova `LemBar.app` para `Applications`.
+4. Abra o aplicativo.
+
+## Gatekeeper
+
+A versão `v1.0.0` utiliza assinatura ad-hoc e ainda não possui Apple Developer ID ou notarização.
+
+Se o macOS bloquear a primeira abertura:
+
+1. clique com o botão direito em `LemBar.app`;
+2. escolha **Abrir**;
+3. confirme a execução.
+
+Se necessário, use **Ajustes do Sistema → Privacidade e Segurança → Abrir Mesmo Assim**.
+
+Não é necessário desativar o Gatekeeper.
+
+## Integridade
 
 ### DMG
 
 ```text
-SHA-256
-8afc14d8619afcb55719c861904e1abea3e08336466cd4e4699cf3f621370654
+3e73f543c7f0f0ea725403a4357880db72264492fdb3a7bce1d5fc2e1835c40d
+```
+
+### ZIP
+
+```text
+b034e795557fe53f6890c2fcdeeb3bc824a3b487e57a43201f46c3c24d02ff1a
+```
+
+Para verificar no macOS:
+
+```bash
+shasum -a 256 LemBar-1.0.0-universal.dmg
+shasum -a 256 LemBar-1.0.0-universal.zip
 ```
 
 ## Código-fonte
 
-Este repositório é destinado à documentação e à distribuição pública das versões do NotchHub.
+Este repositório público é utilizado para documentação e distribuição oficial das versões do LemBar.
 
-O código-fonte não é publicado neste repositório.
+O código-fonte do aplicativo não é publicado neste repositório.
 
 ## Autor
 
 **Henrique Lemos**
+
+---
+
+<p align="center">
+  <strong>LemBar</strong><br>
+  Your Mac, right at the top.
+</p>

@@ -31,7 +31,7 @@ Música, informações do sistema, calendário e ações rápidas ficam disponí
 ## Quick Start
 
 1. Acesse a [release mais recente](https://github.com/PaladinoCH/LemBar/releases/latest).
-2. Baixe `LemBar-1.0.1-universal.dmg`.
+2. Baixe `LemBar-v1.0.2.dmg`.
 3. Abra o DMG.
 4. Arraste `LemBar.app` para `Applications`.
 5. Abra o LemBar.
@@ -84,10 +84,10 @@ A distribuição oficial é Universal e o mesmo DMG/ZIP funciona nas duas arquit
 
 ## Download
 
-Versão estável atual: **LemBar v1.0.1**
+Versão estável atual: **LemBar v1.0.2**
 
-- `LemBar-1.0.1-universal.dmg`
-- `LemBar-1.0.1-universal.zip`
+- `LemBar-v1.0.2.dmg`
+- `LemBar-v1.0.2.zip`
 
 [**Baixar a versão mais recente →**](https://github.com/PaladinoCH/LemBar/releases/latest)
 
@@ -95,21 +95,21 @@ Versão estável atual: **LemBar v1.0.1**
 
 ### DMG
 
-1. Baixe `LemBar-1.0.1-universal.dmg`.
+1. Baixe `LemBar-v1.0.2.dmg`.
 2. Abra o arquivo.
 3. Arraste `LemBar.app` para `Applications`.
 4. Abra o aplicativo pela pasta Aplicativos.
 
 ### ZIP
 
-1. Baixe `LemBar-1.0.1-universal.zip`.
+1. Baixe `LemBar-v1.0.2.zip`.
 2. Extraia o arquivo.
 3. Mova `LemBar.app` para `Applications`.
 4. Abra o aplicativo.
 
 ## Gatekeeper
 
-A versão `v1.0.1` utiliza assinatura ad-hoc e ainda não possui Apple Developer ID ou notarização.
+A versão `v1.0.2` utiliza assinatura ad-hoc e ainda não possui Apple Developer ID ou notarização.
 
 Se o macOS bloquear a primeira abertura:
 
@@ -126,20 +126,20 @@ Não é necessário desativar o Gatekeeper.
 ### DMG
 
 ```text
-139680a95e80411cca5362e13b50082d3d836e283fff1ef7141cb80b12b287b7
+967f535fbaa2a9f8911e396a52ae7c93b05995a0867fc50506eeb9ea15be4828
 ```
 
 ### ZIP
 
 ```text
-4e7f22a55cbd1f3a0a3d80746add9df5860bf7ee6870905efc213d3c184052b0
+0b9a35e5211333488bd326243fb61133a74d76298312ae276698ba9152af1125
 ```
 
 Para verificar no macOS:
 
 ```bash
-shasum -a 256 LemBar-1.0.1-universal.dmg
-shasum -a 256 LemBar-1.0.1-universal.zip
+shasum -a 256 LemBar-v1.0.2.dmg
+shasum -a 256 LemBar-v1.0.2.zip
 ```
 
 ## Código-fonte
